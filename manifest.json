@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Mistral AI Assistant",
+  "version": "1.0",
+  "description": "Local AI power right in your browser",
+  "permissions": ["activeTab", "scripting", "contextMenus"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
